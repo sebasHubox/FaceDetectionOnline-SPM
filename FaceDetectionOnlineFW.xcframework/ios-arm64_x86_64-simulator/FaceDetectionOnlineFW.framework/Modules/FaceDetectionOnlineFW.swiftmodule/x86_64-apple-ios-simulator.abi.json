@@ -1,0 +1,1116 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FaceDetectionOnlineFW",
+    "printedName": "FaceDetectionOnlineFW",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceDetectionOnlineFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceDetectionOnlineFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomDataSend",
+        "printedName": "CustomDataSend",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomDataSend",
+                "printedName": "FaceDetectionOnlineFW.CustomDataSend",
+                "usr": "s:21FaceDetectionOnlineFW14CustomDataSendV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21FaceDetectionOnlineFW14CustomDataSendVACycfc",
+            "mangledName": "$s21FaceDetectionOnlineFW14CustomDataSendVACycfc",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomDataSend",
+                "printedName": "FaceDetectionOnlineFW.CustomDataSend",
+                "usr": "s:21FaceDetectionOnlineFW14CustomDataSendV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21FaceDetectionOnlineFW14CustomDataSendV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21FaceDetectionOnlineFW14CustomDataSendV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FaceDetectionOnlineFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21FaceDetectionOnlineFW14CustomDataSendV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21FaceDetectionOnlineFW14CustomDataSendV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FaceDetectionOnlineFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21FaceDetectionOnlineFW14CustomDataSendV",
+        "mangledName": "$s21FaceDetectionOnlineFW14CustomDataSendV",
+        "moduleName": "FaceDetectionOnlineFW",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "deviceData",
+        "printedName": "deviceData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "deviceData",
+                "printedName": "FaceDetectionOnlineFW.deviceData",
+                "usr": "s:21FaceDetectionOnlineFW10deviceDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21FaceDetectionOnlineFW10deviceDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21FaceDetectionOnlineFW10deviceDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "FaceDetectionOnlineFW",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21FaceDetectionOnlineFW10deviceDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21FaceDetectionOnlineFW10deviceDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "FaceDetectionOnlineFW",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21FaceDetectionOnlineFW10deviceDataV",
+        "mangledName": "$s21FaceDetectionOnlineFW10deviceDataV",
+        "moduleName": "FaceDetectionOnlineFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceDetectionOnlineFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceDetectionOnlineFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceDetectionOnlineListener",
+        "printedName": "FaceDetectionOnlineListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(img:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21FaceDetectionOnlineFW0abC8ListenerP9onSuccess3imgySo7UIImageC_tF",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC8ListenerP9onSuccess3imgySo7UIImageC_tF",
+            "moduleName": "FaceDetectionOnlineFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceDetectionOnlineFW.FaceDetectionOnlineListener>",
+            "sugared_genericSig": "<Self where Self : FaceDetectionOnlineFW.FaceDetectionOnlineListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(status:description:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21FaceDetectionOnlineFW0abC8ListenerP7onError6status11descriptionySi_SStF",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC8ListenerP7onError6status11descriptionySi_SStF",
+            "moduleName": "FaceDetectionOnlineFW",
+            "genericSig": "<τ_0_0 where τ_0_0 : FaceDetectionOnlineFW.FaceDetectionOnlineListener>",
+            "sugared_genericSig": "<Self where Self : FaceDetectionOnlineFW.FaceDetectionOnlineListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21FaceDetectionOnlineFW0abC8ListenerP",
+        "mangledName": "$s21FaceDetectionOnlineFW0abC8ListenerP",
+        "moduleName": "FaceDetectionOnlineFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FaceDetectionOnline",
+        "printedName": "FaceDetectionOnline",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "faceDetectionOnlineListener",
+            "printedName": "faceDetectionOnlineListener",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FaceDetectionOnlineFW.FaceDetectionOnlineListener)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FaceDetectionOnlineListener",
+                    "printedName": "any FaceDetectionOnlineFW.FaceDetectionOnlineListener",
+                    "usr": "s:21FaceDetectionOnlineFW0abC8ListenerP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21FaceDetectionOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvp",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvp",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceDetectionOnlineFW.FaceDetectionOnlineListener)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceDetectionOnlineListener",
+                        "printedName": "any FaceDetectionOnlineFW.FaceDetectionOnlineListener",
+                        "usr": "s:21FaceDetectionOnlineFW0abC8ListenerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvg",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvg",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FaceDetectionOnlineFW.FaceDetectionOnlineListener)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FaceDetectionOnlineListener",
+                        "printedName": "any FaceDetectionOnlineFW.FaceDetectionOnlineListener",
+                        "usr": "s:21FaceDetectionOnlineFW0abC8ListenerP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvs",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvs",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvM",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C04facebC8ListenerAA0abcF0_pSgvM",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceUrl",
+            "printedName": "serviceUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21FaceDetectionOnlineFW0abC0C10serviceUrlSSvp",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC0C10serviceUrlSSvp",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C10serviceUrlSSvg",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C10serviceUrlSSvg",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C10serviceUrlSSvs",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C10serviceUrlSSvs",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C10serviceUrlSSvM",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C10serviceUrlSSvM",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accessKey",
+            "printedName": "accessKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21FaceDetectionOnlineFW0abC0C9accessKeySSvp",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC0C9accessKeySSvp",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9accessKeySSvg",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9accessKeySSvg",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9accessKeySSvs",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9accessKeySSvs",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9accessKeySSvM",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9accessKeySSvM",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secretKey",
+            "printedName": "secretKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21FaceDetectionOnlineFW0abC0C9secretKeySSvp",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC0C9secretKeySSvp",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9secretKeySSvg",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9secretKeySSvg",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9secretKeySSvs",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9secretKeySSvs",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9secretKeySSvM",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9secretKeySSvM",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "publicKey",
+            "printedName": "publicKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21FaceDetectionOnlineFW0abC0C9publicKeySSvp",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC0C9publicKeySSvp",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9publicKeySSvg",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9publicKeySSvg",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9publicKeySSvs",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9publicKeySSvs",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C9publicKeySSvM",
+                "mangledName": "$s21FaceDetectionOnlineFW0abC0C9publicKeySSvM",
+                "moduleName": "FaceDetectionOnlineFW",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FaceDetectionOnline",
+                "printedName": "FaceDetectionOnlineFW.FaceDetectionOnline",
+                "usr": "s:21FaceDetectionOnlineFW0abC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21FaceDetectionOnlineFW0abC0CACycfc",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC0CACycfc",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "cropFace",
+            "printedName": "cropFace(img:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21FaceDetectionOnlineFW0abC0C04cropA03imgySo7UIImageC_tF",
+            "mangledName": "$s21FaceDetectionOnlineFW0abC0C04cropA03imgySo7UIImageC_tF",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21FaceDetectionOnlineFW0abC0C",
+        "mangledName": "$s21FaceDetectionOnlineFW0abC0C",
+        "moduleName": "FaceDetectionOnlineFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FaceDetectionOnlineFW",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FaceDetectionOnlineFW"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "FaceDetectionOnlineFW"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "FaceDetectionOnlineFW"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenGenerator",
+        "printedName": "TokenGenerator",
+        "declKind": "Class",
+        "usr": "s:21FaceDetectionOnlineFW14TokenGeneratorC",
+        "mangledName": "$s21FaceDetectionOnlineFW14TokenGeneratorC",
+        "moduleName": "FaceDetectionOnlineFW",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toBase64",
+            "printedName": "toBase64()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC21FaceDetectionOnlineFWE8toBase64SSyF",
+            "mangledName": "$sSo7UIImageC21FaceDetectionOnlineFWE8toBase64SSyF",
+            "moduleName": "FaceDetectionOnlineFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/07-Recorte Facial\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1157,
+      "length": 5,
+      "value": "240.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/07-Recorte Facial\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW\/ConectionManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1218,
+      "length": 5,
+      "value": "300.0"
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/07-Recorte Facial\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/07-Recorte Facial\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 565,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/07-Recorte Facial\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 603,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sebasmg\/Desktop\/Mircoservices\/07-Recorte Facial\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW\/FaceDetectionOnlineFW.swift",
+      "kind": "StringLiteral",
+      "offset": 641,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

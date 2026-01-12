@@ -1,0 +1,41 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FaceDetectionOnlineFW
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import CryptoKit
+import Foundation
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct CustomDataSend : Swift.Codable {
+  public init()
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct deviceData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol FaceDetectionOnlineListener {
+  func onSuccess(img: UIKit.UIImage)
+  func onError(status: Swift.Int, description: Swift.String)
+}
+public class FaceDetectionOnline {
+  public var faceDetectionOnlineListener: (any FaceDetectionOnlineFW.FaceDetectionOnlineListener)?
+  public var serviceUrl: Swift.String
+  public var accessKey: Swift.String
+  public var secretKey: Swift.String
+  public var publicKey: Swift.String
+  public init()
+  public func cropFace(img: UIKit.UIImage)
+  @objc deinit
+}
+extension UIKit.UIImage {
+  public func toBase64() -> Swift.String
+}
+@_hasMissingDesignatedInitializers public class TokenGenerator {
+  @objc deinit
+}
